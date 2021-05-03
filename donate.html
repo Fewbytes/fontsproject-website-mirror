@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title> פרויקט הפונטים - תרום פונט </title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width">
+        <meta property="og:title" content="פרויקט הפונטים" />
+        <meta property="og:description" content="פונטי רשת עבריים חופשיים לשימוש עם אפשרות הטמעה מהירה וקלה באתרים" />
+        <meta property="og:image" content="http://www.fontsproject.co.il/assets/images/share.png" />
+        <link rel="stylesheet" href="assets/styles/main.css">
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+          _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+          _gaq.push(['_setAccount', 'UA-40500449-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+        <script src="assets/scripts/vendor/jquery.min.js"></script>
+        <script src="assets/scripts/bundle.js"></script>
+
+        <link rel="shortcut icon" href="assets/favicon.ico" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="http://serve.fontsproject.com/css?family=Carmela:400" />
+        <meta name=keywords content="פונט,פונטים,פונט רשת,פונטי רשת,פונטים בעברית,פונטים עבריים,גופנים,גופנים בעברית,גופנים עבריים,גופני רשת,גופן רשת,פרוייקט הפונטים">
+        
+
+    </head>
+    <body>
+       <div class="content clearfix">
+             <nav class="header">
+
+               <ul class="nav">
+                    <li class="logoIcon"><a href="index.html" title="פרויקט הפונטים"></a></li>
+                    <li class="logoText"><a href="index.html" title="פרויקט הפונטים">פרויקט הפונטים</a></li>
+                    <li class="sep"></li>
+                    <li class="button"><a href="font/list.html">פונטים</a></li>
+                    <li class="button"><a href="faq.html">שאלות נפוצות</a></li>
+                    <li class="button"><a href="donate.html">תרום פונט</a></li>
+                </ul>
+
+                <ul class="socialNav">
+                    <li class="icon"> </li>
+                    <li class="sep"> </li>
+                    <li class="button twitter"></li>
+                    <li class="button facebook"></li>
+                    <li class="button google"></li>
+                    <li class="button text">הפיצו את השמועה</li>
+                    <li class="buttonHidder"></li>
+
+                </ul>
+</nav>
+            
+<div class="main donate">
+
+</div>
+
+<div class="side form donate clearfix">
+    <h1> הפרויקט בתנופה! </h1>
+    <p class="nowrap">
+        הוא... הוא רק צריך אתכם כדי להרגיש אותה...</br>
+        ו... שאולי גם ממש.. תתנו אותה...
+        רק פוש קטן אבל, לא משהו רציני... :)
+    </p>
+    <p>
+        אז אם יש לכם פונט שיצרתם ואתם
+        מעוניינים לשתפו, מלאו את
+        הטופס הבא ונהיה בקשר בקרוב!
+    </p>
+
+    <form method="POST" id="donation_form" class="donationForm" enctype="multipart/form-data">
+        <label for="sender_address">כתובת דוא"ל </label>
+        <input type="text" id="sender_address" name="sender_address"/>
+        <div class="failure">
+            <span>נא למלא</span>
+            <div class="failureArrow">
+            </div>
+        </div>
+
+        <label for="sender_name">שם מלא</label>
+        <input type="text" id="sender_name" name="sender_name"/>
+        <div class="failure">
+            <span>נא למלא</span>
+            <div class="failureArrow">
+            </div>
+        </div>
+
+        <label for="font_name">שם הפונט</label>
+        <input type="text" id="font_name" name="font_name"/>
+        <div class="failure">
+            <span>נא למלא</span>
+            <div class="failureArrow">
+            </div>
+        </div>
+
+        <label for="license">סוג רישיון</label>
+        <input type="text" id="license" name="license"/>
+    </select>
+
+    <label style="padding-top: 10px;">קובץ הפונט</label>
+
+     <div class="radio active" data-input="font_url" name="link"></div> <label class="radiolabel"  for="link">קישור לקובץ</label>
+     <div class="radio"  data-input="font_file" name="upload"></div> <label class="radiolabel"  for="upload">העלה לקובץ</label></br>
+     <input type="text" class="font-field font_url" id="font_url" name="font_url"/>
+
+     <input type="file" class="font-field font_file" id="font_file" style="display:none" name="font_file"/>
+     </br><input type="text" class="font-field font_file hidder" style="display:none" id="not_font_file" name="not_font_file"/>
+     <div class="uploadButton font-field font_file" style="display:none;">
+        <span class="cloudIcon"></span>
+        <span class="uploadText">בחר</span>
+     </div>
+     <input type="hidden" name="fallback" value="false"/>
+
+
+
+
+    <label for="content">הערות</label>
+
+    <textarea id="content" name="content"> </textarea>
+
+    <div class="argree-checkbox">
+        <input type="checkbox" id="agree"/>
+        <label for="agree">אני מצהיר/ה כי זכויות היוצרים הבלעדיות על הפונט הן בבעלותי</label>
+    </div>
+
+    <button value="שלח!">שלח!</button>
+</form>
+
+    <div class="success-message">
+        תודה! הטופס נשלחה בהצלחה,</br>
+         ניצור איתך קשר בקרוב.
+    </div>
+</div>
+
+<script>
+var DonationForm = ( function ($, exports) {
+
+    function DonationForm () {
+
+        this.subscribeToSubmit();
+        this.subscribeToInputClick();
+        this.radioButtons();
+        this.fileUploader();
+        
+
+    };
+    DonationForm.prototype.refill = function(fieldList) {
+        $.each(fieldList, function(fieldName, value){
+            $("[name='"+fieldName+"']").val(value);
+        })
+    };
+    DonationForm.prototype.fileUploader = function (){
+        var fileUploader = $("[type='file']"),
+            uploadButton = $(".uploadButton"),
+            fileUploaderHidder = $("input.font_file.hidder"),
+            file,
+            thisUploader = this;
+
+        $("#font_url").on("keydown", function(){ $(".font_error").animate({opacity:0}); })
+
+        fileUploader.on('change', function(event) {
+            var myReader,
+                dataURL,
+                fileExt;
+
+            file = event.target.files[0];
+            fileExt = file.name.split(".")[file.name.split(".").length - 1];
+
+            if (fileExt != "ttf"&&fileExt != "svg"&&fileExt != "eot"&&fileExt != "woff"){
+                fileUploaderHidder.val("שגיאה. הקובץ אינו פונט.");
+                return;
+            }
+
+            fileUploaderHidder .val(file.name);
+        });
+
+        fileUploaderHidder.on('click', function() {
+           fileUploader.trigger('click');
+        });
+
+        fileUploaderHidder.on('keydown', function(event) {
+           fileUploader.trigger('click');
+           event.preventDefault();
+           return false;
+        });
+
+        uploadButton.on("mouseenter", function(event) {
+            uploadButton.addClass("active");
+        });
+
+        uploadButton.on("mouseleave", function(event) {
+            uploadButton.removeClass("active");
+        });
+
+        uploadButton.on('click', function(event) {
+            event.preventDefault();
+            $(".font_error").animate({opacity:0});
+            fileUploader.trigger('click');
+        });
+    };
+
+    DonationForm.prototype.subscribeToSubmit = function (event) {
+        var thisDonationForm = this;
+
+        $("#donation_form").submit( function (event) {
+            var formFields = thisDonationForm.getFormFields();
+            if ($("input[name='fallback']").val() == "true") {return true};
+            event.preventDefault();
+            $.post("/donate", formFields).done( function (response) {
+
+                if (response['status'] == "failed"){
+                    thisDonationForm.errorHandler(response);
+                } else {
+                    thisDonationForm.showSuccessMessage();
+                }
+            });
+
+            return false;
+        })
+    };
+
+    DonationForm.prototype.subscribeToInputClick = function () {
+        $("#donation_form > input").on("keydown", function () {
+            $(this).next('.failure').animate({opacity:0}, 300);
+        });
+    };
+
+    DonationForm.prototype.radioButtons = function () {
+        var thisForm = this;
+        thisForm.fallbackForm = false;
+        var fallback = $("input[name='fallback']");
+        $(".radio").click(function(e){
+            var inputToShow = $(this).attr("data-input");
+            fallback.val(inputToShow == "font_file" ? true : false);
+            $(".font-field").hide();
+            $("."+inputToShow).show();
+            $(".radio").removeClass("active");
+            $(this).addClass("active");
+        });
+    };
+
+
+    DonationForm.prototype.getFormFields = function () {
+        return {
+            'sender_address' :  $('#sender_address').val(),
+            'sender_name'    :  $('#sender_name').val(),
+            'font_name'      :  $('#font_name').val(),
+            'license'        :  $('#license').val(),
+            'font_url'       :  $('#font_url').val(),
+            'content'        :  $('textarea').val()
+        }
+    };
+
+    DonationForm.prototype.markMissingFields = function (missingFields){
+        $(missingFields).each( function (id, missingField) {
+            var $error;
+            if (missingField == "font"){
+                $(".font_error").remove();
+                $(".font-field").last().after("<div class='font_error'>נא להעלות קובץ או לספק קישור</div>");
+            }else{
+                $error = $("#"+missingField).next('.failure');
+                $error.animate({opacity:1}, 300);
+            }
+
+
+        });
+
+        return this;
+    };
+
+    DonationForm.prototype.errorHandler = function (response) {
+        if (response['error'] == "missing_fields") {
+            this.markMissingFields( response['missing_fields'] )
+        }
+
+        return this;
+    };
+
+    DonationForm.prototype.showSuccessMessage = function () {
+        $(".success-message").animate({opacity:1});
+    };
+
+    return DonationForm;
+
+} (jQuery, window) )
+
+
+$(window).load( function () {
+    donationForm = new DonationForm();
+})
+</script>
+
+       </div>
+       <nav class="footer">
+    <a href="http://www.fewbytes.com" target="_blank"><div class="fewbytes-logo"></div></a>
+    <ul>
+        <li><a href="font/list.html">רשימת הפונטים</a></li>
+        <li><a href="http://www.fontsproject.co.il/about">אודות הפרויקט</a></li>
+        <li><a href="reliability.html">אמינות ושרידות השירות</a></li>
+        <li><a href="help.html">הוראות הטמעה</a></li>
+        <li><a href="terms.html">תנאי שימוש</a></li>
+        <li><a href="contact_us.html">יצירת קשר</a></li>
+    </ul>
+</nav>
+
+       <script type="text/javascript">
+           var clicky_site_ids = clicky_site_ids || [];
+           clicky_site_ids.push(100693149);
+           (function() {
+               var s = document.createElement('script');
+               s.type = 'text/javascript';
+               s.async = true;
+               s.src = '//static.getclicky.com/js';
+               ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+           })();
+       </script>
+       <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100693149ns.gif" /></p></noscript>
+    </body>
+</html>
